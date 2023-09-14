@@ -31,7 +31,7 @@ namespace MoodAnalyserDemo
         {
             try
             {
-                Person p = null;
+                Person p = new Person();
                 Console.WriteLine(p.Id);
             }
             catch(NullReferenceException ex)

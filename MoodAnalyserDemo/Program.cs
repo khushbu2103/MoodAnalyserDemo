@@ -12,6 +12,7 @@ namespace MoodAnalyserDemo
         {
             TypeOfException.TestArrayIndexOfBoundException();
             TypeOfException.TestNullReferenceException();
+            
             Console.ReadLine();
         }
     }
