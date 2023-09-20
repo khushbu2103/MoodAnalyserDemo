@@ -17,13 +17,21 @@ namespace MoodAnalyserDemo
 
         public string Analyser()
         {
-            if (massege.ToLower().Contains("happy"))
+            try
+            {
+                if (massege.ToLower().Contains("happy"))
+                {
+                    return "happy";
+                }
+                else
+                {
+                    return "sad";
+                }
+            }
+            catch(NullReferenceException ex)
             {
                 return "happy";
-            }
-            else
-            {
-                return "sad";
+               
             }
         }
     }
